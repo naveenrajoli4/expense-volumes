@@ -11,7 +11,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata: 
   name: backend
-  namespace: rnk-expense
+  namespace: rnk-expense-vol
   labels:
     app: backend
     tier: backend
@@ -41,7 +41,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: backend-svc
-  namespace: rnk-expense
+  namespace: rnk-expense-vol
 spec:
   selector:
     app: backend
