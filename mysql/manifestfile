@@ -29,7 +29,6 @@ metadata:
     tire: database
 spec: 
   selector: # labels are used as selectors
-  labels:
     app: mysql
     project: expense
     tire: database
