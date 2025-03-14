@@ -69,7 +69,7 @@ spec:
   # Instead of creating a PVC resource, you can directly provide in statefulset
   volumeClaimTemplates:
   - metadata:
-      name: nginx-vol
+      name: mysql-vol
       namespace: rnk-expense-vol
     spec:
       accessModes: [ "ReadWriteOnce" ]
